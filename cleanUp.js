@@ -26,7 +26,7 @@ addThreeNums(4, 2, 7);
 
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -42,5 +42,8 @@ function average(num1, num2)
 var sum = num1 + num2;
     var avg = sum / 2;
 
-  console.log(`the average is: ${avg}`.)
+  console.log(`the average is: ${avg}.`)
   }
+
+  average(4,5)
+  
